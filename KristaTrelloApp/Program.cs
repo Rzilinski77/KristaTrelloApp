@@ -15,7 +15,7 @@ namespace KristaTrelloApp
 
             Task task = new Task
             {
-                Name = "Fuck Bitches",
+                Name = "Study",
                 Comment = "Get Money",
                 AssignedUsers = users,
                 DueDate = DateTime.Now
