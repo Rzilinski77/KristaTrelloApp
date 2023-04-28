@@ -4,7 +4,7 @@ using System.Text;
 
 namespace KristaTrelloApp
 {
-    class Task
+    public class Task
     {
         public string Name { get; set; }
         public string Comment { get; set; }
@@ -38,6 +38,15 @@ namespace KristaTrelloApp
         {
             b.ToDo.Add(this);
         }
+
+        public void UpdateTask(string name, string comment, string label)
+        {
+            Name = name;
+            Comment = comment;
+            Label = label;
+        }
+
+        
 
             
 

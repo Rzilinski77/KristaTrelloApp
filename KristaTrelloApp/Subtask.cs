@@ -4,7 +4,7 @@ using System.Text;
 
 namespace KristaTrelloApp
 {
-    class Subtask
+    public class Subtask
     {
         public string Name { get; set; }
         public string Comment { get; set; }

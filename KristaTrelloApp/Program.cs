@@ -7,10 +7,10 @@ namespace KristaTrelloApp
     {
         static void Main(string[] args)
         {
-            List<User> users = new List<User> 
-            { 
-            new User { FirstName="Randy", LastName="Zilinski"},
-            new User { FirstName="Krista", LastName="Anderson"}
+            List<User> users = new List<User>
+            {
+                new User { FirstName="Randy", LastName="Zilinski"},
+                new User { FirstName="Krista", LastName="Anderson"}
             };
 
             Task task = new Task
@@ -20,7 +20,7 @@ namespace KristaTrelloApp
                 AssignedUsers = users,
                 DueDate = DateTime.Now
             };
-            
+
             Console.WriteLine(task.FormatTask());
         }
     }
